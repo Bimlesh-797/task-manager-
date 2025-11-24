@@ -1,10 +1,10 @@
 # Smart Task Manager – Full Edition
 *A Modular Java Task Management System with JSON Storage*
 
-## 📌 Overview
+## Overview
 Smart Task Manager is a Java-based console application designed to manage users, tasks, and reports efficiently. It supports user creation, task assignment, status tracking, and report generation. The application uses JSON files for persistent storage and is structured using modular OOP principles.
 
-## 🚀 Features
+##  Features
 ### ✔ User Management
 - Add, view, and delete users
 - Persistent storage in `users.json`
@@ -29,7 +29,7 @@ Smart Task Manager is a Java-based console application designed to manage users,
 - Packaged using Maven Assembly Plugin  
 - Runs with all dependencies included
 
-## 🧱 Project Structure
+##  Project Structure
 ```
 SmartTaskManager_Full/
 ├── src/main/java/com/vityarthi/smarttask/
@@ -50,7 +50,7 @@ SmartTaskManager_Full/
 └── README.md
 ```
 
-## 🛠 Technologies Used
+##  Technologies Used
 | Component | Details |
 |----------|---------|
 | Language | Java 17 |
@@ -60,7 +60,7 @@ SmartTaskManager_Full/
 | Testing | JUnit 5 |
 | Packaging | Fat JAR |
 
-## ⚙️ How to Build the Project
+##  How to Build the Project
 ### 1. Install Requirements
 ```bash
 java -version
@@ -72,21 +72,21 @@ mvn -version
 mvn clean package
 ```
 
-## ▶️ Run the Application
+##  Run the Application
 ```bash
 java -jar target/SmartTaskManager-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
-## 🧪 Testing
+##  Testing
 ```bash
 mvn test
 ```
 
-## 📂 Storage Files
+##  Storage Files
 - storage/users.json  
 - storage/tasks.json
 
-## 🧩 Technical Details
+## Technical Details
 - Modular architecture (UserModule, TaskModule, ReportModule)
 - JSON serialization via Gson
 - File handling, OOP, Collections, Exception Handling
